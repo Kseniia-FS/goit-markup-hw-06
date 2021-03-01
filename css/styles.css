@@ -995,7 +995,8 @@ body {
   background-color: var(--accent-color);
   background-image: url(../images/icon-check.svg);
   border: none;
-  align-items: center;
+  background-origin: border-box;
+  background-size: contain;
 
 }
 
