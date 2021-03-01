@@ -991,7 +991,8 @@ body {
   
 }
 
-.policy-icon {
+.policy-lable::before {
+  content: "";
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -1001,7 +1002,7 @@ body {
   border-radius: 3px;
 }
 
-.policy-comment:checked + .policy-icon {
+.policy-comment:checked + .policy-lable::before {
   background-color: var(--accent-color);
   background-image: url(../images/icon-check.svg);
   border: none;
