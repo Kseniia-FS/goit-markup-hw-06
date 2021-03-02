@@ -376,10 +376,10 @@
                 <strong class="socials-title">Подпишитесь на рассылку</strong>
                 <div class="form-fiel-wrap">
                     <div class="form-field">
-                    <lable for="mail-footer" ></lable>
-                    <input type="email" name="mail" id="mail-footer" class="lable-footer" placeholder="E-mail"/>
-                </div>
-                <button class="button button-hero subscribe-btn">Подписаться</button>
+                        <lable for="mail-footer" ></lable>
+                        <input type="email" name="mail" id="mail-footer" class="lable-footer" placeholder="E-mail"/>
+                    </div>
+                <button type="submit" class="button button-hero subscribe-btn">Подписаться</button>
                 </div>
 
             </div>
@@ -388,32 +388,28 @@
 <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <form class="form" role="group">
+            <form class="form" >
                 <b class="form-title">Оставьте свои данные, мы вам перезвоним</b>
                 
-                <lable for="name" class="lable">Имя</lable>
-                <div class="form-fild-modal">
-                    <input type="text" name="name" id="name" class="form-input" placeholder=" "/>
+                <lable  class="lable form-fild-modal">Имя
+                    <input type="text" name="name"  class="form-input" placeholder=" "/>
                     <svg class="modal-icon" weight="12" height="12">
                         <use href="./images/icons.svg#icon-body"></use>
-                    </svg>
-                </div>
+                    </svg></lable>
 
-                <lable for="tel" class="lable">Телефон</lable>
-                <div class="form-fild-modal">
-                    <input type="tel" name="tel" id="tel" class="form-input" placeholder=" ">
+                <lable  class="lable form-fild-modal">Телефон
+                    <input type="tel" name="tel"  class="form-input" placeholder=" ">
                     <svg class="modal-icon" weight="12" height="12">
                         <use href="./images/icons.svg#icon-tel"></use>
-                    </svg>
-                </div>
+                    </svg></lable>
+                
 
-                <lable for="mail" class="lable">Почта</lable>
-                <div class="form-fild-modal">
-                    <input type="email" name="mail" id="mail" class="form-input" placeholder=" "/>
+                <lable  class="lable form-fild-modal">Почта
+                    <input type="email" name="mail"  class="form-input" placeholder=" "/>
                     <svg class="modal-icon" weight="12" height="12">
                         <use href="./images/icons.svg#icon-e-mail"></use>
-                    </svg>
-                </div>
+                    </svg></lable>
+                
 
                 <lable for="comment" class="lable">Комментарий</lable>
                 <textarea  name="comment" id="comment" placeholder="Введите текст" class="comment"></textarea>

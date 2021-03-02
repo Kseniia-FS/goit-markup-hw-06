@@ -928,6 +928,7 @@ body {
 
 .form-input {
   padding-left: 42px;
+  margin-top: 4px;
   height: 40px;
   width: 100%;
   
@@ -1051,7 +1052,7 @@ body {
   position: absolute;
   top: 0;
   left: 12px;
-  transform: translateY(52%);
+  transform: translateY(165%);
 
   width: 18px;
   height: 18px;
@@ -1073,7 +1074,3 @@ body {
   
 }
 
-.form-fild-modal:focus-within {
-  border: 1px solid var(--accent-color);
-
-}
