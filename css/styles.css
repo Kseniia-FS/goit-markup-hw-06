@@ -955,6 +955,7 @@ body {
   border-radius: 4px;
 
   transition: border var(--animation-dur) var(--animation-dir);
+  outline: none;
 }
 
 .form .comment:focus {
