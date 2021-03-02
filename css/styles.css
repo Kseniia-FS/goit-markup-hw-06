@@ -104,7 +104,7 @@ a {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', "Raleway", sans-serif;
   font-style: normal;
   letter-spacing: 0.03em;
 
@@ -897,6 +897,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+
   
   
 }
@@ -938,6 +939,7 @@ body {
 
   transition: border var(--animation-dur) var(--animation-dir);
   cursor: pointer;
+  outline: none;
 }
 
 .form-input:focus {
