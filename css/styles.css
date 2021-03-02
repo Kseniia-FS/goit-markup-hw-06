@@ -940,8 +940,6 @@ body {
   cursor: pointer;
 }
 
-
-
 .form-input:focus {
   border: 1px solid var(--accent-color);
 }
